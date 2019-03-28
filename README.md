@@ -3,6 +3,14 @@
 ## Description:
 This site allows users to record and track their current stock holdings.  After a user has purchased or sold a stock, they can enter the stock symbol and the number of shares bought or sold to update their current portfolio holdings.  The site will update holdings based on data queried from the IEX Stocks API.  Users can view their total portfolio value and a detailed list of stock holdings including stock symbol, company name, current price, shares owned, and total value.  The detailed stocks table can be sorted in ascending or descending order by any of the table columns.  The site uses HTML5 local storage to store stocks added/sold between sessions within the same browser.
 
+## Site Photos: 
+### Full Site:
+![Full Site](/site-photos/full-site.png)
+### Adding Stocks:
+![Add Stock](/site-photos/add-stock.png)
+### Mobile Layout:
+![Mobile](/site-photos/mobile.png)
+
 ## Instructions for Use:
 This app queries data from IEX Stocks API using an API key. These keys are free and anyone can request one, but for general security purposes my API key has not been included in the uploaded code.  To test the full functionality of this app the perform the following steps:
 - Sign up for a free API key from the [IEX Stocks API](https://iextrading.com/developer/)
@@ -13,8 +21,8 @@ This app queries data from IEX Stocks API using an API key. These keys are free 
 const api_key = "INSERT_YOUR_API_KEY_HERE"
 ```
 - Navigate into the stocks-app directory via the command line 
-- Ensure necessary modules have been installed using the command line by running ```bash npm install```
-- Start the local server and use the page by using the command line and  running  ```bash npm start```
+- Ensure necessary modules have been installed using the command line by running ```npm install```
+- Start the local server and use the page by using the command line and  running  ```npm start```
 
 ## Sources:
 - https://www.taniarascia.com/how-to-use-local-storage-with-javascript/
